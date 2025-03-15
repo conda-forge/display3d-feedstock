@@ -1,6 +1,6 @@
 context:
   name: display3d
-  version: '0.2.1'
+  version: "0.2.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/renpenguin/display3d/archive/v${{ version }}.tar.gz
-  sha256: 9eb86c960cffaf1a49c727bf18969624d29e2b84b6fccf60d97bff5dc1282429
+  sha256: 123859d194fe9ee2e5f7088dabc2d6228dd73c210fc1d372bc42a89b40ebc75a
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
